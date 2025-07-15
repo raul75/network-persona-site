@@ -8,11 +8,13 @@ const HeroSection = () => {
 
   return (
     <section className="min-h-screen gradient-hero flex items-center justify-center relative overflow-hidden">
-      {/* Background pattern */}
+      {/* Animated background pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 border border-primary rounded-full"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 border border-accent rounded-full"></div>
-        <div className="absolute top-1/2 right-1/3 w-32 h-32 border border-security-green rounded-full"></div>
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 border border-primary rounded-full animate-pulse"></div>
+        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 border border-accent rounded-full animate-spin" style={{animationDuration: '20s'}}></div>
+        <div className="absolute top-1/2 right-1/3 w-32 h-32 border border-security-green rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
+        <div className="absolute top-1/3 left-1/2 w-48 h-48 border border-primary/50 rounded-full animate-ping" style={{animationDuration: '3s'}}></div>
+        <div className="absolute bottom-1/3 left-1/3 w-24 h-24 border border-security-green/60 rounded-full" style={{animation: 'float 6s ease-in-out infinite'}}></div>
       </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
