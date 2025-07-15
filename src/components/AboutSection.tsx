@@ -39,7 +39,7 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="animate-slide-up">
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Consulente informatico con oltre 20 anni di esperienza nel settore IT, 
+                Consulente informatico con oltre 30 anni di esperienza nel settore IT, 
                 specializzato in infrastrutture enterprise, sicurezza informatica e system integration.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
