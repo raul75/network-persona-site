@@ -85,7 +85,7 @@ const InterestsSection = () => {
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   La mia passione per il nuoto mi ha insegnato la disciplina e la determinazione, 
                   qualità che applico quotidianamente nel lavoro. L'interesse per le tecnologie 
-                  blockchain e crypto mi mantiene sempre aggiornato sulle innovazioni più 
+                  blockchain e Intelligenza artificiale mi mantiene sempre aggiornato sulle innovazioni più 
                   avanzate, permettendomi di anticipare le tendenze tecnologiche e offrire 
                   soluzioni all'avanguardia ai miei clienti.
                 </p>
