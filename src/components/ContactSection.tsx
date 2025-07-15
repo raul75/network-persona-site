@@ -12,25 +12,25 @@ const ContactSection = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "security.specialist@email.com",
-      href: "mailto:security.specialist@email.com"
+      value: "romano.alessio@gmail.com",
+      href: "mailto:romano.alessio@gmail.com"
     },
     {
       icon: Phone,
       label: "Telefono",
-      value: "+39 333 123 4567",
-      href: "tel:+393331234567"
+      value: "+39 333 243 6721",
+      href: "tel:+393332436721"
     },
     {
-      icon: Linkedin,
-      label: "LinkedIn",
-      value: "linkedin.com/in/security-specialist",
-      href: "https://linkedin.com/in/security-specialist"
+      icon: Phone,
+      label: "Telefono Fisso",
+      value: "+39 010 480 5524",
+      href: "tel:+390104805524"
     },
     {
       icon: MapPin,
       label: "Ubicazione",
-      value: "Italia",
+      value: "Genova, Italia",
       href: null
     }
   ];
@@ -53,8 +53,8 @@ const ContactSection = () => {
             </h2>
             <div className="w-24 h-1 gradient-accent mx-auto mb-8"></div>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Hai un progetto di sicurezza informatica? Vuoi una consulenza? 
-              Non esitare a contattarmi per discutere delle tue esigenze.
+              Hai bisogno di consulenza IT o supporto per la tua infrastruttura? 
+              Contattami per discutere del tuo progetto e trovare la soluzione più adatta.
             </p>
           </div>
 

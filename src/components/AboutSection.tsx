@@ -5,23 +5,23 @@ const AboutSection = () => {
   const highlights = [
     {
       icon: Shield,
-      title: "Sicurezza Proattiva",
-      description: "Implementazione di misure preventive per proteggere l'infrastruttura aziendale"
+      title: "Sicurezza & Compliance",
+      description: "Implementazione soluzioni di sicurezza e adeguamento normative GDPR per aziende"
     },
     {
       icon: Network,
-      title: "Network Security",
-      description: "Progettazione e configurazione di architetture di rete sicure e scalabili"
+      title: "Reti Aziendali",
+      description: "Progettazione e manutenzione reti LAN, WAN, VPN e MPLS con apparati enterprise"
     },
     {
       icon: Eye,
-      title: "Threat Detection",
-      description: "Monitoraggio continuo e identificazione tempestiva delle minacce informatiche"
+      title: "System Integration",
+      description: "Integrazione sistemi complessi e gestione infrastrutture virtualizzate"
     },
     {
       icon: Lock,
-      title: "Compliance",
-      description: "Conformità agli standard di sicurezza ISO 27001, GDPR e normative settoriali"
+      title: "Consulenza IT",
+      description: "Consulenza strategica e supporto tecnico per PMI e aziende enterprise"
     }
   ];
 
@@ -39,18 +39,17 @@ const AboutSection = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="animate-slide-up">
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                Security Specialist con oltre 8 anni di esperienza nella protezione di infrastrutture 
-                critiche e nella gestione della sicurezza informatica per aziende enterprise.
+                Consulente informatico con oltre 20 anni di esperienza nel settore IT, 
+                specializzato in infrastrutture enterprise, sicurezza informatica e system integration.
               </p>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
-                La mia expertise spazia dalla progettazione di architetture di rete sicure 
-                al penetration testing, dall'implementazione di sistemi SIEM alla gestione 
-                della compliance normativa.
+                Dal 2017 lavoro come consulente indipendente, dopo aver fondato e gestito per 14 anni 
+                Next World S.r.l., acquisendo competenze complete nella gestione di progetti IT complessi 
+                per PMI e aziende enterprise.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Sono specializzato nella creazione di strategie di cybersecurity complete 
-                che bilanciano sicurezza, usabilità e performance, garantendo la continuità 
-                operativa del business.
+                La mia passione per l'innovazione tecnologica mi porta a studiare costantemente 
+                le nuove tecnologie emergenti, dalla blockchain alle moderne architetture cloud.
               </p>
             </div>
             
@@ -58,28 +57,28 @@ const AboutSection = () => {
               <h3 className="text-2xl font-semibold mb-6 text-foreground">
                 Aree di Specializzazione
               </h3>
-              <ul className="space-y-3 text-muted-foreground">
+               <ul className="space-y-3 text-muted-foreground">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Network Security & Firewall Management
+                  Sistemi Windows/Linux/Mac & Virtualizzazione
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-security-green rounded-full mr-3"></div>
-                  Penetration Testing & Vulnerability Assessment
+                  Reti LAN/WAN/VPN & Sicurezza Informatica
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  SIEM Implementation & Log Analysis
+                  Sviluppo Web & Database Management
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-security-green rounded-full mr-3"></div>
-                  Incident Response & Forensics
+                  System Integration & Backup Solutions
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-primary rounded-full mr-3"></div>
-                  Compliance & Risk Management
+                  Blockchain & Tecnologie Emergenti
                 </li>
-              </ul>
+               </ul>
             </div>
           </div>
           

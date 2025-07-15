@@ -4,29 +4,28 @@ import { Badge } from "@/components/ui/badge";
 
 const SkillsSection = () => {
   const technicalSkills = [
-    { name: "Network Security", level: 95 },
-    { name: "Penetration Testing", level: 90 },
-    { name: "SIEM/SOC", level: 88 },
-    { name: "Firewall Management", level: 92 },
-    { name: "Incident Response", level: 85 },
-    { name: "Risk Assessment", level: 87 }
+    { name: "Sistemi Windows/Linux", level: 95 },
+    { name: "Reti & Sicurezza", level: 90 },
+    { name: "Virtualizzazione", level: 88 },
+    { name: "Sviluppo Web", level: 82 },
+    { name: "System Integration", level: 92 },
+    { name: "Backup & Storage", level: 85 }
   ];
 
   const technologies = [
-    "Cisco ASA", "Palo Alto", "Fortinet", "pfSense",
-    "Nessus", "OpenVAS", "Burp Suite", "Metasploit",
-    "Splunk", "ELK Stack", "QRadar", "ArcSight",
-    "Wireshark", "Nmap", "Aircrack-ng", "John the Ripper",
-    "Python", "PowerShell", "Bash", "SQL",
-    "VMware", "Docker", "Kubernetes", "AWS Security"
+    "Windows Server 2008/2012/2016", "CentOS", "Debian", "Ubuntu", "Mac OS X",
+    "VMware ESXi", "VMware vCenter", "Docker CE", "Xenserver",
+    "Cisco", "SonicWall", "Juniper", "pfSense", "Endian", "Shorewall",
+    "HTML", "CSS", "PHP", "WordPress", "Joomla", "MySQL",
+    "Qnap", "Rsync", "Acronis", "Nextcloud", "Zimbra",
+    "VPN", "MPLS", "LAN/WAN", "GDPR Compliance"
   ];
 
   const certifications = [
-    { name: "CISSP", status: "Certified" },
-    { name: "CEH", status: "Certified" },
-    { name: "CCNA Security", status: "Certified" },
-    { name: "CompTIA Security+", status: "Certified" },
-    { name: "OSCP", status: "In Progress" }
+    { name: "HP Netserver Technical Training", status: "Certified" },
+    { name: "Reti Telematiche - Politecnico Milano", status: "Certified" },
+    { name: "Istruttore Nuoto CONI", status: "Certified" },
+    { name: "Diploma Liceo Scientifico", status: "Certified" }
   ];
 
   return (
@@ -39,8 +38,8 @@ const SkillsSection = () => {
             </h2>
             <div className="w-24 h-1 gradient-accent mx-auto mb-8"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Un mix di competenze tecniche avanzate e certificazioni riconosciute 
-              nel settore della cybersecurity
+              Oltre 20 anni di esperienza in sistemi IT, infrastrutture enterprise 
+              e tecnologie innovative dall'amministrazione di sistema al consulting avanzato
             </p>
           </div>
 

@@ -4,51 +4,67 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const ExperienceSection = () => {
   const experiences = [
     {
-      title: "Senior Security Specialist",
-      company: "TechSecure Enterprise",
-      location: "Milano, Italia",
-      period: "2021 - Presente",
+      title: "Consulente Informatico",
+      company: "Libero Professionista",
+      location: "Genova, Italia",
+      period: "Aprile 2017 - Attuale",
       description: [
-        "Progettazione e implementazione di architetture di sicurezza per clienti enterprise",
-        "Gestione team di 5 security analyst per monitoraggio SOC 24/7",
-        "Conduzione di penetration test e vulnerability assessment su infrastrutture critiche",
-        "Sviluppo di procedure di incident response e disaster recovery"
+        "Gestione completa infrastrutture IT per PMI e aziende enterprise",
+        "Progettazione e implementazione reti LAN/WAN/VPN sicure con apparati Cisco, SonicWall, Juniper",
+        "Gestione ISP locale con VMware ESXi/vCenter: 200 domini e 5000 caselle email",
+        "Virtualizzazione e containerizzazione con Docker, gestione server Zimbra",
+        "Implementazione soluzioni backup locali/remote con storage QNAP, Rsync, Acronis",
+        "Consulenza GDPR e adeguamento normative sicurezza informatica"
       ]
     },
     {
-      title: "Network Security Engineer",
-      company: "CyberDefense Solutions",
-      location: "Roma, Italia", 
-      period: "2019 - 2021",
+      title: "CEO & Founder",
+      company: "Next World S.r.l.",
+      location: "Genova, Italia", 
+      period: "Giugno 2003 - Marzo 2017",
       description: [
-        "Configurazione e gestione di firewall enterprise (Palo Alto, Fortinet)",
-        "Implementazione di sistemi SIEM e correlazione eventi di sicurezza",
-        "Analisi forensics e investigazioni su incidenti di sicurezza",
-        "Formazione del personale su best practices di cybersecurity"
+        "Fondazione e gestione azienda IT con negozio e laboratorio di assistenza tecnica",
+        "System integrator per conto di Alpitel, Sirti, Fastweb, Telecom, Wind",
+        "Gestione amministrativa, appalti e coordinamento team di dipendenti",
+        "Vendita e assistenza hardware/software per privati e aziende",
+        "Sviluppo business relations con major telco italiane"
       ]
     },
     {
-      title: "IT Security Analyst",
-      company: "SecureNet Consulting",
-      location: "Napoli, Italia",
-      period: "2017 - 2019", 
+      title: "Tecnico Apparecchi Telecomunicazioni",
+      company: "System Integrator S.r.l.",
+      location: "Genova, Italia",
+      period: "Novembre 2002 - Maggio 2003",
       description: [
-        "Monitoraggio continuo dell'infrastruttura di rete aziendale",
-        "Gestione di vulnerability assessment e remediation",
-        "Supporto nella compliance GDPR e ISO 27001",
-        "Documentazione di policies e procedure di sicurezza"
+        "Installazione apparati Cisco/Aethra/Marconi presso PMI per Fastweb, Telecom, Wind",
+        "Configurazione e allaccio linee telefoniche PSTN e VOIP nei PABX",
+        "Manutenzione impianti su territorio ligure",
+        "Prima esperienza diretta con apparati enterprise di telecomunicazioni"
       ]
     },
     {
-      title: "Junior Network Administrator",
-      company: "DataCore Systems",
-      location: "Bari, Italia",
-      period: "2016 - 2017",
+      title: "Tecnico Sistemi Informatici",
+      company: "Computer Discount",
+      location: "Genova, Italia",
+      period: "Settembre 2000 - Ottobre 2002",
       description: [
-        "Amministrazione sistemi Windows/Linux in ambiente enterprise",
-        "Gestione backup e disaster recovery procedures",
-        "Supporto tecnico e troubleshooting di rete",
-        "Prima esperienza con strumenti di security monitoring"
+        "Responsabile centri assistenza da Genova a Chiavari",
+        "Coordinamento tecnici e gestione interventi presso clienti aziendali",
+        "Gestione clienti business con esigenze sistemistiche complesse",
+        "Amministrazione magazzini e gestione resi merchandise"
+      ]
+    },
+    {
+      title: "Tecnico Sistemi Informatici",
+      company: "Mantero Sistemi S.r.l.",
+      location: "Genova, Italia",
+      period: "Settembre 1998 - Agosto 2000",
+      description: [
+        "Installazione e configurazione sistemi Windows/Linux client/server",
+        "Setup software gestionali ESA per aziende",
+        "Manutenzione hardware HP: PC, workstation, server IBM, stampanti e plotter",
+        "Gestione antivirus aziendale e monitoraggio sistemi",
+        "Prime competenze sistemistiche in ambiente enterprise"
       ]
     }
   ];
@@ -63,8 +79,8 @@ const ExperienceSection = () => {
             </h2>
             <div className="w-24 h-1 gradient-accent mx-auto mb-8"></div>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Un percorso di crescita costante nel mondo della cybersecurity, 
-              dalle basi dell'amministrazione di sistema alle sfide più complesse della sicurezza enterprise
+              Oltre 20 anni di crescita nel settore IT: dall'amministrazione di sistema 
+              all'imprenditoria, fino alla consulenza specializzata in infrastrutture e sicurezza
             </p>
           </div>
 

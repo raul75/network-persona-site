@@ -24,15 +24,15 @@ const HeroSection = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-primary-foreground">
-            Security Specialist
+            Alessio Romano
             <span className="block text-3xl md:text-4xl text-security-green mt-2">
-              Network & Infrastructure
+              Consulente Informatico & Security Specialist
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/80 mb-8 max-w-3xl mx-auto">
-            Protezione avanzata per sistemi critici, analisi delle vulnerabilità 
-            e implementazione di soluzioni di sicurezza enterprise-grade
+            Sistemista esperto con oltre 20 anni di esperienza in infrastrutture IT, 
+            reti aziendali, sicurezza informatica e virtualizzazione enterprise
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
