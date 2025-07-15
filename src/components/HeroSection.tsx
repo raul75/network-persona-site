@@ -33,7 +33,7 @@ const HeroSection = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-primary-foreground/80 mb-8 max-w-3xl mx-auto">
-            Sistemista esperto con oltre 20 anni di esperienza in infrastrutture IT, 
+            Sistemista esperto con oltre 30 anni di esperienza in infrastrutture IT, 
             reti aziendali, sicurezza informatica e virtualizzazione enterprise
           </p>
           
