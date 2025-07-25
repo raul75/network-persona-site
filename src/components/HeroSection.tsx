@@ -20,8 +20,21 @@ const HeroSection = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         <div className="animate-fade-in">
           <div className="flex justify-center mb-6">
-            <div className="p-4 bg-primary/20 rounded-full shadow-glow">
-              <img src="/lovable-uploads/babad4e0-8091-4bef-8f5b-05c86a0c6061.png" alt="Next World Logo" className="w-16 h-16 object-contain" />
+            <div className="relative">
+              {/* Animated background circles */}
+              <div className="absolute inset-0 -m-8">
+                <div className="absolute top-0 left-0 w-32 h-32 bg-primary/20 rounded-full animate-pulse"></div>
+                <div className="absolute top-2 left-2 w-28 h-28 bg-security-green/15 rounded-full animate-ping" style={{animationDuration: '2s'}}></div>
+                <div className="absolute top-4 left-4 w-24 h-24 bg-accent/20 rounded-full animate-spin" style={{animationDuration: '8s'}}></div>
+              </div>
+              {/* Logo container */}
+              <div className="relative z-10 p-6 bg-gradient-to-br from-primary/30 to-security-green/20 rounded-full shadow-glow border border-primary/30 backdrop-blur-sm">
+                <img 
+                  src="/lovable-uploads/babad4e0-8091-4bef-8f5b-05c86a0c6061.png" 
+                  alt="Next World Logo" 
+                  className="w-24 h-24 object-contain hover-scale" 
+                />
+              </div>
             </div>
           </div>
           
