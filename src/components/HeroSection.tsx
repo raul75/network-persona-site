@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import modernLogo from "@/assets/next-world-modern-logo.png";
 
 const HeroSection = () => {
   const scrollToAbout = () => {
@@ -28,7 +29,7 @@ const HeroSection = () => {
               {/* Logo container with cyber styling */}
               <div className="relative z-10 p-6 bg-gradient-to-br from-slate-900/80 to-slate-800/60 rounded-full shadow-2xl border border-cyan-400/30 backdrop-blur-sm">
                 <img 
-                  src="/lovable-uploads/babad4e0-8091-4bef-8f5b-05c86a0c6061.png" 
+                  src={modernLogo} 
                   alt="Next World Logo" 
                   className="w-28 h-28 object-contain hover-scale filter drop-shadow-lg" 
                 />
