@@ -1,6 +1,5 @@
-import { ChevronDown } from "lucide-react";
+import { ChevronDown, Shield, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import minimalSymbol from "@/assets/minimal-tech-symbol.png";
 
 const HeroSection = () => {
   const scrollToAbout = () => {
@@ -9,12 +8,31 @@ const HeroSection = () => {
 
   return (
     <section className="min-h-screen gradient-hero flex items-center justify-center relative overflow-hidden">
-      {/* Animated cyber elements */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 border border-cyan-400/50 rounded-full animate-pulse"></div>
-        <div className="absolute bottom-1/4 right-1/4 w-64 h-64 border border-blue-500/30 rounded-full animate-spin" style={{animationDuration: '20s'}}></div>
-        <div className="absolute top-1/2 right-1/3 w-32 h-32 border border-cyan-300/40 rounded-full animate-bounce" style={{animationDelay: '1s'}}></div>
-        <div className="absolute top-1/3 left-1/2 w-48 h-48 border border-blue-400/30 rounded-full animate-ping" style={{animationDuration: '3s'}}></div>
+      {/* Floating particles background */}
+      <div className="absolute inset-0 overflow-hidden">
+        {[...Array(20)].map((_, i) => (
+          <div
+            key={i}
+            className="absolute w-2 h-2 bg-cyan-400/60 rounded-full animate-float"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 3}s`,
+              animationDuration: `${3 + Math.random() * 2}s`
+            }}
+          />
+        ))}
+        {[...Array(15)].map((_, i) => (
+          <div
+            key={i + 20}
+            className="absolute w-1 h-1 bg-blue-400/40 rounded-full animate-twinkle"
+            style={{
+              left: `${Math.random() * 100}%`,
+              top: `${Math.random() * 100}%`,
+              animationDelay: `${Math.random() * 2}s`
+            }}
+          />
+        ))}
       </div>
       
       <div className="container mx-auto px-6 text-center relative z-10">
@@ -26,13 +44,12 @@ const HeroSection = () => {
                 <div className="absolute top-0 left-0 w-32 h-32 bg-cyan-400/20 rounded-full animate-pulse blur-xl"></div>
                 <div className="absolute top-2 left-2 w-28 h-28 bg-blue-500/15 rounded-full animate-ping blur-lg" style={{animationDuration: '2s'}}></div>
               </div>
-              {/* Logo container with cyber styling */}
+              {/* Icon container with cyber styling */}
               <div className="relative z-10 p-6 bg-gradient-to-br from-slate-900/80 to-slate-800/60 rounded-full shadow-2xl border border-cyan-400/30 backdrop-blur-sm">
-                <img 
-                  src={minimalSymbol} 
-                  alt="Tech Symbol" 
-                  className="w-28 h-28 object-contain hover-scale filter drop-shadow-lg" 
-                />
+                <div className="relative">
+                  <Shield className="w-28 h-28 text-cyan-400 hover-scale filter drop-shadow-lg" />
+                  <Lock className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-12 h-12 text-blue-300" />
+                </div>
               </div>
             </div>
           </div>
