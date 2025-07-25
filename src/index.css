@@ -124,8 +124,30 @@ All colors MUST be HSL.
 }
 
 @layer utilities {
+  /* Cyber Hero Background with animated stars */
   .gradient-hero {
-    background: var(--gradient-hero);
+    background: linear-gradient(135deg, hsl(220 25% 8%) 0%, hsl(220 20% 6%) 50%, hsl(220 25% 8%) 100%);
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .gradient-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.8), transparent),
+      radial-gradient(2px 2px at 40px 70px, rgba(0,255,255,0.4), transparent),
+      radial-gradient(1px 1px at 90px 40px, rgba(255,255,255,0.6), transparent),
+      radial-gradient(1px 1px at 130px 80px, rgba(0,255,255,0.3), transparent),
+      radial-gradient(2px 2px at 160px 30px, rgba(255,255,255,0.4), transparent);
+    background-repeat: repeat;
+    background-size: 200px 100px;
+    animation: twinkle 8s infinite linear;
+    opacity: 0.6;
   }
   
   .gradient-card {
@@ -183,6 +205,11 @@ All colors MUST be HSL.
       opacity: 1;
       transform: translateY(0);
     }
+  }
+  
+  @keyframes twinkle {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-100px); }
   }
   
   @keyframes float {
