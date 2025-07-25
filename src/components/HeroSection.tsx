@@ -1,4 +1,4 @@
-import { Shield, ChevronDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const HeroSection = () => {
@@ -21,7 +21,7 @@ const HeroSection = () => {
         <div className="animate-fade-in">
           <div className="flex justify-center mb-6">
             <div className="p-4 bg-primary/20 rounded-full shadow-glow">
-              <Shield className="w-16 h-16 text-primary" />
+              <img src="/lovable-uploads/babad4e0-8091-4bef-8f5b-05c86a0c6061.png" alt="Next World Logo" className="w-16 h-16 object-contain" />
             </div>
           </div>
           
